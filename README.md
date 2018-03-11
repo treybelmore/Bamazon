@@ -2,11 +2,15 @@
 
 Description
 
-This application implements a simple command line based storefront using the npm inquirer package and the MySQL database backend together with the npm mysql package. The application presents two interfaces: customer and manager.
+This application implements a simple command line based storefront using the npm inquirer package and the MySQL database backend together with the npm mysql package.
 
 MySQL Database Setup
 
-In order to run this application, you should have the MySQL database already set up on your machine. If you don't, visit the MySQL installation page to install the version you need for your operating system. Once you have MySQL isntalled, you will be able to create the Bamazon database and the products table with the SQL code found in Bamazon.sql. Run this code inside your MySQL client like Sequel Pro to populate the database, then you will be ready to proceed with running the Bamazon customer and manager interfaces.
+In order to run this application, you should have the MySQL database already set up on your machine. If you don't, visit the MySQL installation page to install the version you need for your operating system. Once you have MySQL isntalled, you will be able to create the Bamazon database and the products table with the SQL code found in schema.sql. Run this code inside your MySQL client like Sequel Pro to populate the database, then you will be ready to proceed with running the Bamazon customer interface.
+
+NPM packages needed
+
+This application uses console.table, mysql, and inquirer packages. These are already saved in the package.json file, so all you will need to do is npm install
 
 Customer Interface
 
